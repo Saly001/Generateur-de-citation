@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Citation</title>
+    <meta charset=utf-8>
+    <meta name=viewport content="width=device-width, initial-scale=1">
+    <!-- Chargement de la bibliothèque Bootstrap -->
+    <link rel="stylesheet" 
+          href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" />
+  
+    <!-- Chargement des Icons à partir Font Awesome -->
+    <link rel="stylesheet" 
+          href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"/>
+  
+    <!-- Lier votre fichier CSS -->
+    <link rel="stylesheet" href="style.css"/>
+  
+    <!-- Chargement de la police Roboto à partir de Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" 
+          rel="stylesheet">
+  
+    <!-- Chargement d'Open Sans Font à partir de Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&display=swap" 
+          rel="stylesheet">
+    
+  </head>
+  
+  <body id="body">
+    <div>
+  
+    <!-- Boîte de citations -->
+    <div class="block text-center">
+  
+      <!-- Partie front des citations -->
+    <div class = "quote-box block__main block__front">
+  
+      <!-- Citation à afficher ici -->
+      <span class = "quote">
+          
+        <!-- Le trait d'union gauche est affiché ici -->
+        <i class="fas fa-2x fa-quote-left"></i>
+  
+        <!-- Text de citation -->
+        <span id="citation">
+          Citation à afficher ici
+        </span>
+
+        <!-- Le trait d'union droite est affiché ici  -->
+        <i class="fas fa-2x fa-quote-right"></i>
+  
+      </span>
+        
+      <!-- Auteur à afficher ici -->
+      <div class = "author">
+        Karl Marx
+      </div>
+      <a  class = "new-quote btn btn-default" 
+          onclick="newQuote()">Nouvelle Citation</a>
+    </div>
+  </div>
+</div>
+    
+  <!-- Lier votre fichier JavaScript -->
+  <script type="text/javascript" src="script.js"></script>
+  </body>
+    
+</html>
